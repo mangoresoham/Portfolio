@@ -7,6 +7,8 @@ body{
     color: white;
     font-family: 'Poppins', sans-serif;
 }
+
+/* navbar */
 nav{
     display: flex;
     justify-content: space-around;
@@ -25,18 +27,53 @@ nav ul li{
     margin: 0 23px;
 }
 
+.navbar-expand-md{
+    justify-content: space-around;
+}
+
 .left{
     font-size: 1.5rem;
 }
 
+
+/* firstsection */
+
+/* left */
 .firstsection{
     position:relative;
 }
 
-.firstsection .row{
-    margin-top: 20px;
+
+.purple{
+    color: rgb(154, 68, 234);
+    font-weight:bold;
 }
 
-.navbar-expand-md{
-    justify-content: space-around;
+.leftsection{
+    font-size: 2.5rem;
+    
 }
+
+.text{
+    text-align:center;
+}
+
+@media (max-width:600px){
+    .leftsection{
+        font-size: 1.5rem;
+        height: 20;
+    }
+
+    .image{
+        height: 300px;
+        width: 300px;
+        margin: 30px 0px !important;
+        padding: 0 !important;
+    }
+}
+
+/* right-image */
+.image{
+    margin-left: 60px;
+}
+
