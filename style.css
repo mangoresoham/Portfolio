@@ -35,6 +35,15 @@ nav ul li{
     font-size: 1.5rem;
 }
 
+.right a{
+    text-decoration: none;
+    color: white;
+}
+
+.right a:hover{
+    text-decoration: none;
+    color:rgb(154, 68, 234);
+}
 
 /* firstsection */
 
@@ -71,6 +80,7 @@ nav ul li{
         padding: 0 !important;
     }
 }
+
 
 /* right-image */
 .image{
