@@ -30,20 +30,38 @@
 
     <main>
         <section class="firstsection">
-                <div class="row mt-5 display-flex align-items-center p-3">
-                    <div class=" leftsection col-md-6 col-sm-6 my-auto">
-                        <div class="text my-auto">Hi, My name is <span class="purple">Soham</span>,<br>
-                        and I am a <span class="purple">Data Scientist</span>.</div>
+                <div class="row mt-5 container-fluid align-items-center p-3">
+                    <div class=" leftsection col-md-6 col-sm-6">
+                        <div class="text my-auto">Hello, I am<br>
+                            <!-- <span class="purple">Data Scientist</span>.<br> -->
+                            <span id="element"></span>
+                        </div>
+                            
                     </div>
                     <div class="rightsection col-md-6 col-sm-6">
                         <img src="temp/bg.png" class="image img-responsive" height="400px" width="400px">
                     </div>
                 </div>
         </section>
+        <hr style="border:0;background:#9C97F1; height: 1.2px; margin: 40px 84px;">
+
+        <section class="secondsection display-flex">
+            <div class="container">
+                <p class="lead">What I've done so far..</p>
+                <h1 class="header1">Work Experience</h1>
+            </div>
+            </section>
     </main>
 
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Soham Mangore', 'Data Scientist','a Graphics Designer','a Web Developer','Hungry !'],
+          typeSpeed: 50,
+        });
+      </script>
 </body>
 </html>

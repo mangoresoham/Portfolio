@@ -35,7 +35,7 @@ nav ul li{
     font-size: 1.5rem;
 }
 
-.right a{
+.navbar ul a{
     text-decoration: none;
     color: white;
 }
@@ -43,6 +43,8 @@ nav ul li{
 .right a:hover{
     text-decoration: none;
     color:rgb(154, 68, 234);
+    /* color: lavender; */
+    
 }
 
 /* firstsection */
@@ -58,13 +60,21 @@ nav ul li{
     font-weight:bold;
 }
 
+#element{
+    color: rgb(154, 68, 234);
+}
+
 .leftsection{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+    font-weight: bold;
     
 }
 
+
 .text{
-    text-align:center;
+    text-align:left;
+    padding-left: 100px;
+
 }
 
 @media (max-width:600px){
@@ -79,11 +89,27 @@ nav ul li{
         margin: 30px 0px !important;
         padding: 0 !important;
     }
+
+    .text{
+        padding: 0;
+        align-items: center;
+    }
 }
 
 
 /* right-image */
 .image{
-    margin-left: 60px;
+    margin-left: 130px;
 }
 
+/* secondsection */
+
+.secondsection .lead{
+    font-size: 1.2rem;
+    color: grey;
+    margin: 0;
+}
+.header1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
