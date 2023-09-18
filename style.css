@@ -92,6 +92,7 @@ body{
     width:fit-content;
     height: 500px;
     border-radius: 3px;
+    object-fit: cover;
     /* margin-left:-15px; */
 }
 
