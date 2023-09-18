@@ -1,19 +1,23 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 /* rgb(34, 34, 47); */
 body{
-    background-color: rgb(34, 34, 47);
+    /* background-color: rgb(34, 34, 47); */
+    background-color: black;
     color: white;
     font-family: 'Poppins', sans-serif;
+    /* scroll-behavior: smooth; */
 }
 
 /* navbar */
 
 .navbar{
-    background-color:rgb(51, 51, 70) ;
+    /* rgb(70, 59, 51) */
+    background-color:rgb(255, 119, 22) ;
     /* background-color: grey; */
     position:sticky;
 }
@@ -53,7 +57,8 @@ body{
 }
 
 #element{
-    color: rgb(154, 68, 234);
+    /* color: rgb(154, 68, 234); */
+    color: rgb(255, 119, 22);
 }
 
 .leftsection{
@@ -135,16 +140,15 @@ hr{
     padding: 10px 30px;
 }
 
-h5:hover{
-    color: black;
-}
 
-.facebook:hover{
-    background-color: skyblue;
-}
 
 .card img{
     object-fit: cover;
     height: 236px;
     width: 100%;
+}
+
+
+.thirdsection a:hover{
+    -webkit-text-fill-color: black;
 }
