@@ -17,7 +17,8 @@ body{
 
 .navbar{
     /* rgb(70, 59, 51) */
-    background-color:rgb(255, 119, 22) ;
+    background-color: black;
+    /* background-color:rgb(255, 119, 22) ; */
     /* background-color: grey; */
     position:sticky;
 }
@@ -26,13 +27,16 @@ body{
     display:inline-flex;
 }
 
+.navbar-toggler:click{
+    border: 0;
+}
 .navbar-toggler{
     border:0;
 }
 
 .navbar-light .navbar-nav .nav-link{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 119, 22);
 }
 
 
