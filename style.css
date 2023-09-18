@@ -36,13 +36,13 @@ body{
 
 .navbar-light .navbar-nav .nav-link{
     text-decoration: none;
-    color: rgb(255, 119, 22);
+    color: white;
 }
 
 
 .navbar-light .navbar-nav .nav-link:hover{
     text-decoration: none;
-    color:rgb(154, 68, 234);
+    color: rgb(255, 119, 22);
     /* color: lavender; */
     
 }
