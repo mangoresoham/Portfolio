@@ -17,7 +17,7 @@ body{
 
 .navbar{
     /* rgb(70, 59, 51) */
-    background-color: black;
+    /* background-color: black; */
     /* background-color:rgb(255, 119, 22) ; */
     /* background-color: grey; */
     position:sticky;
@@ -66,7 +66,7 @@ body{
 }
 
 .leftsection{
-    font-size: 3.5rem;
+    font-size: 55px;
     font-weight: bold;
     
 }
@@ -99,8 +99,8 @@ body{
     /* margin-right: -11px; */
     display:flex;
     width:fit-content;
-    height: 500px;
-    border-radius: 3px;
+    /* height: 500px; */
+    border-radius: 50%;
     object-fit: cover;
     /* margin-left:-15px; */
 }
@@ -112,8 +112,11 @@ body{
 
 /* resume-button */
 .btn-dark:hover{
-    background-color: white;
-    color: rgb(34, 34, 47);
+    /* background-color: white; */
+    background-color: rgb(255, 119, 22);
+    /* color: rgb(34, 34, 47); */
+    color: white;
+    border: none !important;
 }
 
 hr{
