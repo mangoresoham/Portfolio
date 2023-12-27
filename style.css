@@ -66,7 +66,7 @@ body{
 }
 
 .leftsection{
-    font-size: 55px;
+    font-size: 60px;
     font-weight: bold;
     
 }
@@ -74,7 +74,7 @@ body{
 
 .text{
     text-align:left;
-    padding-left: 100px;
+    padding-left: 0px;
 
 }
 
