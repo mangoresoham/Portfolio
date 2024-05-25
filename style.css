@@ -100,7 +100,7 @@ body{
     display:flex;
     width:fit-content;
     /* height: 500px; */
-    border-radius: 50%;
+    /* border-radius: 50%; */
     object-fit: cover;
     /* margin-left:-15px; */
 }
