@@ -102,7 +102,7 @@ body{
     display:flex;
     width:fit-content;
     /* height: 500px; */
-    /* border-radius: 50%; */
+    border-radius: 4%;
     object-fit: cover;
     /* margin-left:-15px; */
 }
