@@ -7,10 +7,12 @@
 /* rgb(34, 34, 47); */
 body{
     /* background-color: rgb(34, 34, 47); */
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     font-family: 'Poppins', sans-serif;
     /* scroll-behavior: smooth; */
+
+    
 }
 
 /* navbar */
@@ -110,6 +112,11 @@ body{
   margin: 0;
 }
 
+.btn-dark{
+    background-color: black;
+    color:white !important
+}
+
 /* resume-button */
 .btn-dark:hover{
     /* background-color: white; */
@@ -155,6 +162,10 @@ hr{
     width: 100%;
 }
 
+.p-4{
+    background-color: black;
+    color:white
+}
 
 .thirdsection a:hover{
     -webkit-text-fill-color: black;
